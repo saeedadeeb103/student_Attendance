@@ -2,7 +2,6 @@ from flask import Flask, render_template, Response
 import cv2
 import face_recognition
 from main import FaceRecognitionAttendanceSystem
-from DataManager import DataManager
 from datetime import datetime
 import cvzone
 
